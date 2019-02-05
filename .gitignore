@@ -1,0 +1,12 @@
+# AWS SAM artifacts
+serverless-xfm.cfn.yml
+awscli-bundle/
+
+# zip files
+*.zip
+
+.idea
+*.iml
+
+node_modules/
+app/node_modules/

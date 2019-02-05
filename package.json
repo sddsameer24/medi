@@ -1,0 +1,43 @@
+{
+  "name": "aws-lambda-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Application To Query Subreddits, Hosted on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv-kumar-jha/aws-lambda-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv-kumar-jha/aws-lambda-graphql/issues"
+  },
+  "homepage": "https://github.com/dhruv-kumar-jha/aws-lambda-graphql#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.3",
+    "apollo-server": "^2.1.0",
+    "aws-serverless-express": "^2.2.0",
+    "axios": "^0.16.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "crypto": "^1.0.1",
+    "dynamodb-geo": "^0.4.0",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "express-validator": "^5.3.0",
+    "graphql": "^0.9.6",
+    "jsonwebtoken": "^8.4.0",
+    "node-fetch": "^2.2.1",
+    "node-gcm": "^1.0.2",
+    "node-input-validator": "^2.3.3",
+    "razorpay": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "url-parse": "^1.4.4",
+    "validator": "^10.9.0"
+  }
+}

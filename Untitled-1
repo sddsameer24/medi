@@ -1,0 +1,18 @@
+curl -XPOST 'https://api.razorpay.com/v1/beta/accounts' \
+     -u rzp_live_2UQf1SUZhEudFI:M2Fg4cagDOR7Q8QmkyegN3Ui \
+     -H "Content-type: application/json" \
+     -d '{
+           "name":"Gaurav Kumar",
+          
+           "tnc_accepted":true,
+           "account_details":{
+              "business_name":"Acme Corporation",
+              "business_type":"individual"
+           },
+           "bank_account":{
+              "ifsc_code":"HDFC0CAGSBK",
+              "beneficiary_name":"Gaurav Kumar",
+              "account_type":"current",
+              "account_number":304030434
+           }
+        }'

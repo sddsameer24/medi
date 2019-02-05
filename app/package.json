@@ -1,0 +1,39 @@
+{
+  "name": "aws-lambda-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Application To Query Subreddits, Hosted on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv-kumar-jha/aws-lambda-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv-kumar-jha/aws-lambda-graphql/issues"
+  },
+  "homepage": "https://github.com/dhruv-kumar-jha/aws-lambda-graphql#readme",
+  "dependencies": {
+    "apollo-errors": "^1.9.0",
+    "apollo-server": "^2.3.1",
+    "apollo-server-lambda": "^2.3.1",
+    "aws-serverless-express": "^2.2.0",
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.5",
+    "dynamodb-geo": "^0.4.0",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "geolib": "^2.0.24",
+    "graphql": "^0.9.6",
+    "graphql-subscriptions": "^1.0.0",
+    "ioredis": "^4.3.0",
+    "node-gcm": "^1.0.2",
+    "razorpay": "^2.0.3",
+    "redis": "^2.8.0"
+  }
+}

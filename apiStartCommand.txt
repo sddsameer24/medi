@@ -1,0 +1,3 @@
+USER_BASE_PATH=$(python -m site --user-base)
+export PATH=$PATH:$USER_BASE_PATH/bin
+TABLE_NAME=StartupKitServerlessWorkload-Table-JFV874KMGCLK sam local start-api
